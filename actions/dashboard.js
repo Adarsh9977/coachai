@@ -27,7 +27,7 @@ export const generateAIInsights =  async (industry) => {
           IMPORTANT: Return ONLY the JSON. No additional text, notes, or markdown formatting.
           Include at least 5 common roles for salary ranges.
           Growth rate should be a percentage.
-          Include at least 5 skills and trends.
+          Include at least 5 skills and trends and more you can add till 15.
         `;
 
         const result = await model.generateContent(prompt);
