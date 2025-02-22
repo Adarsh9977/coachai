@@ -15,9 +15,9 @@ import EntryForm from './entry-form';
 import MDEditor from '@uiw/react-md-editor';
 import { entriesToMarkdown } from '@/app/lib/helper';
 import { useUser } from '@clerk/nextjs';
-import html2pdf from "html2pdf.js/dist/html2pdf.min.js";
 import { Input } from '@/components/ui/input';
 import { toast } from 'sonner';
+import html2pdf from 'html2pdf.js';
 
 
 const ResumeBuilder = ({ initialContent }) => {
